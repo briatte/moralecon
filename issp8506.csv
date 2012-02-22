@@ -1,0 +1,229 @@
+cty	yr	ctyr	issue	lic	exp	yr2
+"AU-Australia"	1985	"AU_1985"	"Pensions"	.9607438	.5084976	0
+"AU-Australia"	1985	"AU_1985"	"Unemployment"	.589779	-.3932203	0
+"AU-Australia"	1985	"AU_1985"	"Environment"		.1519337	0
+"AU-Australia"	1985	"AU_1985"	"Health"	.9331956	.568521	0
+"AU-Australia"	1990	"AU_1990"	"Pensions"	.941968	.4983151	0
+"AU-Australia"	1990	"AU_1990"	"Health"	.9382094	.6244211	0
+"AU-Australia"	1990	"AU_1990"	"Unemployment"	.5571553	-.4791579	0
+"AU-Australia"	1990	"AU_1990"	"Environment"		.5326825	0
+"AU-Australia"	1996	"AU_1996"	"Health"	.9417661	.7781473	1
+"AU-Australia"	1996	"AU_1996"	"Environment"	.9614836	.3902205	1
+"AU-Australia"	1996	"AU_1996"	"Pensions"	.9410086	.462963	1
+"AU-Australia"	1996	"AU_1996"	"Unemployment"	.6516193	-.2737244	1
+"AU-Australia"	2006	"AU_2006"	"Environment"	.9509988	.5408709	1
+"AU-Australia"	2006	"AU_2006"	"Pensions"	.9493243	.5073557	1
+"AU-Australia"	2006	"AU_2006"	"Unemployment"	.5726125	-.2734168	1
+"AU-Australia"	2006	"AU_2006"	"Health"	.9835882	.8990349	1
+"CA-Canada"	1996	"CA_1996"	"Environment"	.9276886	.4100005	1
+"CA-Canada"	1996	"CA_1996"	"Pensions"	.912558	.1799204	1
+"CA-Canada"	1996	"CA_1996"	"Unemployment"	.6775854	-.144404	1
+"CA-Canada"	1996	"CA_1996"	"Health"	.9522953	.4794923	1
+"CA-Canada"	2006	"CA_2006"	"Health"	.9632055	.7288272	1
+"CA-Canada"	2006	"CA_2006"	"Unemployment"	.6173779	.0365102	1
+"CA-Canada"	2006	"CA_2006"	"Environment"	.9309606	.4528457	1
+"CA-Canada"	2006	"CA_2006"	"Pensions"	.9536594	.4204268	1
+"CZ-Czech Republic"	1996	"CZ_1996"	"Environment"	.9697828	.6565465	1
+"CZ-Czech Republic"	1996	"CZ_1996"	"Unemployment"	.4465921	-.1872587	1
+"CZ-Czech Republic"	1996	"CZ_1996"	"Health"	.9678013	.8119181	1
+"CZ-Czech Republic"	1996	"CZ_1996"	"Pensions"	.9660239	.6378987	1
+"CZ-Czech Republic"	2006	"CZ_2006"	"Environment"	.8995559	.4105568	1
+"CZ-Czech Republic"	2006	"CZ_2006"	"Pensions"	.9418611	.5284881	1
+"CZ-Czech Republic"	2006	"CZ_2006"	"Unemployment"	.4684986	-.1997651	1
+"CZ-Czech Republic"	2006	"CZ_2006"	"Health"	.9604382	.6619392	1
+"FR-France"	1996	"FR_1996"	"Unemployment"	.8247148	-.0826261	1
+"FR-France"	1996	"FR_1996"	"Pensions"	.936394	.2994578	1
+"FR-France"	1996	"FR_1996"	"Environment"	.9583655	.3067501	1
+"FR-France"	1996	"FR_1996"	"Health"	.892289	.4158307	1
+"FR-France"	2006	"FR_2006"	"Health"	.9202075	.5081052	1
+"FR-France"	2006	"FR_2006"	"Unemployment"	.678067	-.2805034	1
+"FR-France"	2006	"FR_2006"	"Pensions"	.9255814	.3896506	1
+"FR-France"	2006	"FR_2006"	"Environment"	.9619023	.4434192	1
+"DE-Germany"	1985	"DE_1985"	"Environment"		.8117647	0
+"DE-Germany"	1985	"DE_1985"	"Health"	.9756809	.451423	0
+"DE-Germany"	1985	"DE_1985"	"Unemployment"	.8538767	.2147117	0
+"DE-Germany"	1985	"DE_1985"	"Pensions"	.9669261	.4250734	0
+"DE-Germany"	1990	"DE_1990"	"Pensions"	.9557161	.5264317	0
+"DE-Germany"	1990	"DE_1990"	"Unemployment"	.8138823	.2309673	0
+"DE-Germany"	1990	"DE_1990"	"Environment"		.8946221	0
+"DE-Germany"	1990	"DE_1990"	"Health"	.9610025	.7013788	0
+"DE-Germany"	1996	"DE_1996"	"Unemployment"	.8260695	.1851938	1
+"DE-Germany"	1996	"DE_1996"	"Health"	.9707798	.5117639	1
+"DE-Germany"	1996	"DE_1996"	"Environment"	.9600014	.5204642	1
+"DE-Germany"	1996	"DE_1996"	"Pensions"	.9648424	.4292252	1
+"DE-Germany"	2006	"DE_2006"	"Unemployment"	.6912357	.1131914	1
+"DE-Germany"	2006	"DE_2006"	"Health"	.9589334	.5677445	1
+"DE-Germany"	2006	"DE_2006"	"Environment"	.9411473	.2753927	1
+"DE-Germany"	2006	"DE_2006"	"Pensions"	.9395832	.452257	1
+"HU-Hungary"	1990	"HU_1990"	"Unemployment"	.7201768	.2291978	0
+"HU-Hungary"	1990	"HU_1990"	"Health"	.9861344	.9459672	0
+"HU-Hungary"	1990	"HU_1990"	"Environment"		.8398093	0
+"HU-Hungary"	1990	"HU_1990"	"Pensions"	.9905623	.8608323	0
+"HU-Hungary"	1996	"HU_1996"	"Pensions"	.9813179	.8362627	1
+"HU-Hungary"	1996	"HU_1996"	"Health"	.9916756	.9251625	1
+"HU-Hungary"	1996	"HU_1996"	"Unemployment"	.6313734	.0504249	1
+"HU-Hungary"	1996	"HU_1996"	"Environment"	.9744485	.6128496	1
+"HU-Hungary"	2006	"HU_2006"	"Environment"	.9561645	.6314412	1
+"HU-Hungary"	2006	"HU_2006"	"Unemployment"	.705008	.2152191	1
+"HU-Hungary"	2006	"HU_2006"	"Health"	.9954425	.9316952	1
+"HU-Hungary"	2006	"HU_2006"	"Pensions"	.9895293	.7340063	1
+"IE-Ireland"	1990	"IE_1990"	"Environment"			0
+"IE-Ireland"	1990	"IE_1990"	"Health"	.98999		0
+"IE-Ireland"	1990	"IE_1990"	"Unemployment"	.90625		0
+"IE-Ireland"	1990	"IE_1990"	"Pensions"	.981019		0
+"IE-Ireland"	1996	"IE_1996"	"Environment"	.9758283	.4591728	1
+"IE-Ireland"	1996	"IE_1996"	"Unemployment"	.9168372	.3491573	1
+"IE-Ireland"	1996	"IE_1996"	"Pensions"	.9918801	.7383802	1
+"IE-Ireland"	1996	"IE_1996"	"Health"	.9913867	.8239652	1
+"IE-Ireland"	2006	"IE_2006"	"Pensions"	.996036	.9004668	1
+"IE-Ireland"	2006	"IE_2006"	"Environment"	.9547639	.6558062	1
+"IE-Ireland"	2006	"IE_2006"	"Unemployment"	.7959378	.3994513	1
+"IE-Ireland"	2006	"IE_2006"	"Health"	.9958742	.9216731	1
+"IL-Israel"	1990	"IL_1990"	"Unemployment"	.6209424	-.1403509	0
+"IL-Israel"	1990	"IL_1990"	"Environment"		.4537988	0
+"IL-Israel"	1990	"IL_1990"	"Pensions"	.9305414	.6883385	0
+"IL-Israel"	1990	"IL_1990"	"Health"	.9164969	.7718941	0
+"IL-Israel"	1996	"IL_1996"	"Environment"	.9073626	.6038007	1
+"IL-Israel"	1996	"IL_1996"	"Unemployment"	.6612641	.0573848	1
+"IL-Israel"	1996	"IL_1996"	"Pensions"	.942277	.7359342	1
+"IL-Israel"	1996	"IL_1996"	"Health"	.9480372	.8171403	1
+"IL-Israel"	2006	"IL_2006"	"Environment"	.8659004	.5402735	1
+"IL-Israel"	2006	"IL_2006"	"Pensions"	.9539623	.8033409	1
+"IL-Israel"	2006	"IL_2006"	"Health"	.956621	.8882979	1
+"IL-Israel"	2006	"IL_2006"	"Unemployment"	.6415963	.1342487	1
+"IT-Italy"	1985	"IT_1985"	"Unemployment"	.8504762	.3979494	0
+"IT-Italy"	1985	"IT_1985"	"Pensions"	.9948645	.7219304	0
+"IT-Italy"	1985	"IT_1985"	"Environment"		.5341448	0
+"IT-Italy"	1985	"IT_1985"	"Health"	.9953951	.7518694	0
+"IT-Italy"	1990	"IT_1990"	"Pensions"	.9911136	.7891096	0
+"IT-Italy"	1990	"IT_1990"	"Environment"		.6813242	0
+"IT-Italy"	1990	"IT_1990"	"Unemployment"	.7904326	.3789958	0
+"IT-Italy"	1990	"IT_1990"	"Health"	.9945785	.8083472	0
+"IT-Italy"	1996	"IT_1996"	"Health"	.9865143	.7247307	1
+"IT-Italy"	1996	"IT_1996"	"Pensions"	.9796572	.6157833	1
+"IT-Italy"	1996	"IT_1996"	"Environment"	.9706919	.5016418	1
+"IT-Italy"	1996	"IT_1996"	"Unemployment"	.7567171	.2877103	1
+"JP-Japan"	1996	"JP_1996"	"Environment"	.9417562	.6730269	1
+"JP-Japan"	1996	"JP_1996"	"Unemployment"	.7304609	.2462825	1
+"JP-Japan"	1996	"JP_1996"	"Health"	.9021164	.620777	1
+"JP-Japan"	1996	"JP_1996"	"Pensions"	.9078947	.5508621	1
+"JP-Japan"	2006	"JP_2006"	"Unemployment"	.5645311	.0862403	1
+"JP-Japan"	2006	"JP_2006"	"Health"	.8684908	.5532102	1
+"JP-Japan"	2006	"JP_2006"	"Pensions"	.8851175	.4964093	1
+"JP-Japan"	2006	"JP_2006"	"Environment"	.8976449	.5124195	1
+"LV-Latvia"	1996	"LV_1996"	"Pensions"	.9960628	.9362448	1
+"LV-Latvia"	1996	"LV_1996"	"Unemployment"	.8281505	.571254	1
+"LV-Latvia"	1996	"LV_1996"	"Environment"	.9385473	.4674516	1
+"LV-Latvia"	1996	"LV_1996"	"Health"	.9876376	.9206414	1
+"LV-Latvia"	2006	"LV_2006"	"Unemployment"	.6493644	.2617188	1
+"LV-Latvia"	2006	"LV_2006"	"Environment"	.913669	.531496	1
+"LV-Latvia"	2006	"LV_2006"	"Pensions"	.9770115	.8566002	1
+"LV-Latvia"	2006	"LV_2006"	"Health"	.957935	.8672986	1
+"NZ-New Zealand"	1996	"NZ_1996"	"Unemployment"	.6349776	-.3698147	1
+"NZ-New Zealand"	1996	"NZ_1996"	"Health"	.9722704	.8640276	1
+"NZ-New Zealand"	1996	"NZ_1996"	"Pensions"	.942758	.4123348	1
+"NZ-New Zealand"	1996	"NZ_1996"	"Environment"	.9651568	.2923077	1
+"NZ-New Zealand"	2006	"NZ_2006"	"Pensions"	.9527363	.5078707	1
+"NZ-New Zealand"	2006	"NZ_2006"	"Unemployment"	.4918315	-.514547	1
+"NZ-New Zealand"	2006	"NZ_2006"	"Environment"	.9241786	.2811966	1
+"NZ-New Zealand"	2006	"NZ_2006"	"Health"	.9801817	.8274446	1
+"NO-Norway"	1990	"NO_1990"	"Unemployment"	.9061001	-.0515537	0
+"NO-Norway"	1990	"NO_1990"	"Pensions"	.9886439	.7049067	0
+"NO-Norway"	1990	"NO_1990"	"Environment"		.7175573	0
+"NO-Norway"	1990	"NO_1990"	"Health"	.985925	.8199863	0
+"NO-Norway"	1996	"NO_1996"	"Environment"	.9385692	.3578125	1
+"NO-Norway"	1996	"NO_1996"	"Health"	.9924642	.8395437	1
+"NO-Norway"	1996	"NO_1996"	"Pensions"	.9909229	.5543562	1
+"NO-Norway"	1996	"NO_1996"	"Unemployment"	.9265842	.0031177	1
+"NO-Norway"	2006	"NO_2006"	"Environment"	.9234412	.340591	1
+"NO-Norway"	2006	"NO_2006"	"Health"	.991673	.847793	1
+"NO-Norway"	2006	"NO_2006"	"Pensions"	.9863326	.5719784	1
+"NO-Norway"	2006	"NO_2006"	"Unemployment"	.8849421	-.024864	1
+"PH-Philippines"	1996	"PH_1996"	"Environment"	.8718199	.4613749	1
+"PH-Philippines"	1996	"PH_1996"	"Health"	.9522653	.8124689	1
+"PH-Philippines"	1996	"PH_1996"	"Pensions"	.906401	.7453457	1
+"PH-Philippines"	1996	"PH_1996"	"Unemployment"	.7254115		1
+"PH-Philippines"	2006	"PH_2006"	"Environment"	.8864246	.5707566	1
+"PH-Philippines"	2006	"PH_2006"	"Unemployment"	.7819575		1
+"PH-Philippines"	2006	"PH_2006"	"Pensions"	.9101385	.8124379	1
+"PH-Philippines"	2006	"PH_2006"	"Health"	.9538331	.860409	1
+"PL-Poland"	1996	"PL_1996"	"Health"	.9782843	.915406	1
+"PL-Poland"	1996	"PL_1996"	"Unemployment"	.8119512	.2402115	1
+"PL-Poland"	1996	"PL_1996"	"Pensions"	.9854879	.791507	1
+"PL-Poland"	1996	"PL_1996"	"Environment"	.9633709	.7589349	1
+"PL-Poland"	2006	"PL_2006"	"Environment"	.9776833	.5946236	1
+"PL-Poland"	2006	"PL_2006"	"Health"	.9882207	.911582	1
+"PL-Poland"	2006	"PL_2006"	"Unemployment"	.8238994	.39804	1
+"PL-Poland"	2006	"PL_2006"	"Pensions"	.9882727	.9057012	1
+"RU-Russia"	1996	"RU_1996"	"Unemployment"	.8185535	.6059204	1
+"RU-Russia"	1996	"RU_1996"	"Health"	.9777373	.9500535	1
+"RU-Russia"	1996	"RU_1996"	"Pensions"	.9865271	.9163343	1
+"RU-Russia"	1996	"RU_1996"	"Environment"	.968044	.7995955	1
+"RU-Russia"	2006	"RU_2006"	"Pensions"	.9886636	.8882608	1
+"RU-Russia"	2006	"RU_2006"	"Environment"	.9616876	.6652129	1
+"RU-Russia"	2006	"RU_2006"	"Health"	.9860325	.8707105	1
+"RU-Russia"	2006	"RU_2006"	"Unemployment"	.6860269	.4738777	1
+"SI-Slovenia"	1996	"SI_1996"	"Pensions"	.9637462	.5231243	1
+"SI-Slovenia"	1996	"SI_1996"	"Environment"	.9486653	.7174603	1
+"SI-Slovenia"	1996	"SI_1996"	"Unemployment"	.863869	.3270242	1
+"SI-Slovenia"	1996	"SI_1996"	"Health"	.9717742	.7889344	1
+"SI-Slovenia"	2006	"SI_2006"	"Health"	.9799398	.7896866	1
+"SI-Slovenia"	2006	"SI_2006"	"Pensions"	.9638917	.5680655	1
+"SI-Slovenia"	2006	"SI_2006"	"Unemployment"	.8282208	.1930541	1
+"SI-Slovenia"	2006	"SI_2006"	"Environment"	.9531568	.6423433	1
+"ES-Spain"	1996	"ES_1996"	"Environment"	.9740694	.6078343	1
+"ES-Spain"	1996	"ES_1996"	"Health"	.9922733	.7835443	1
+"ES-Spain"	1996	"ES_1996"	"Unemployment"	.9385709	.4358301	1
+"ES-Spain"	1996	"ES_1996"	"Pensions"	.9894395	.6516567	1
+"ES-Spain"	2006	"ES_2006"	"Environment"	.970297	.6705277	1
+"ES-Spain"	2006	"ES_2006"	"Health"	.9774739	.8623482	1
+"ES-Spain"	2006	"ES_2006"	"Pensions"	.9947896	.8130115	1
+"ES-Spain"	2006	"ES_2006"	"Unemployment"	.9275123	.5210549	1
+"SE-Sweden"	1996	"SE_1996"	"Unemployment"	.9050214	.2769695	1
+"SE-Sweden"	1996	"SE_1996"	"Environment"	.9422694	.4996468	1
+"SE-Sweden"	1996	"SE_1996"	"Health"	.9636178	.7604343	1
+"SE-Sweden"	1996	"SE_1996"	"Pensions"	.9769325	.5377626	1
+"SE-Sweden"	2006	"SE_2006"	"Unemployment"	.8343613	.0217202	1
+"SE-Sweden"	2006	"SE_2006"	"Pensions"	.9697493	.5772926	1
+"SE-Sweden"	2006	"SE_2006"	"Environment"	.8946428	.3511384	1
+"SE-Sweden"	2006	"SE_2006"	"Health"	.9363557	.7835757	1
+"CH-Switzerland"	1996	"CH_1996"	"Environment"	.8810204	.2120018	1
+"CH-Switzerland"	1996	"CH_1996"	"Unemployment"	.7116331	-.006526	1
+"CH-Switzerland"	1996	"CH_1996"	"Pensions"	.896954	.2892834	1
+"CH-Switzerland"	1996	"CH_1996"	"Health"	.8963428	.1967749	1
+"CH-Switzerland"	2006	"CH_2006"	"Pensions"	.8993735	.5218007	1
+"CH-Switzerland"	2006	"CH_2006"	"Environment"	.8968046	.5211281	1
+"CH-Switzerland"	2006	"CH_2006"	"Health"	.8835301	.4069768	1
+"CH-Switzerland"	2006	"CH_2006"	"Unemployment"	.6709687	.164666	1
+"GB-Great Britain"	1985	"GB_1985"	"Environment"		.3200454	0
+"GB-Great Britain"	1985	"GB_1985"	"Pensions"	.9842811	.7423573	0
+"GB-Great Britain"	1985	"GB_1985"	"Unemployment"	.8541912	.2208234	0
+"GB-Great Britain"	1985	"GB_1985"	"Health"	.9906583	.876582	0
+"GB-Great Britain"	1990	"GB_1990"	"Environment"		.6030406	0
+"GB-Great Britain"	1990	"GB_1990"	"Health"	.9911139	.8960116	0
+"GB-Great Britain"	1990	"GB_1990"	"Pensions"	.9877735	.8137598	0
+"GB-Great Britain"	1990	"GB_1990"	"Unemployment"	.8057171	.1904692	0
+"GB-Great Britain"	1996	"GB_1996"	"Health"	.9848667	.9100377	1
+"GB-Great Britain"	1996	"GB_1996"	"Unemployment"	.7771274	.1490795	1
+"GB-Great Britain"	1996	"GB_1996"	"Pensions"	.9739254	.7684314	1
+"GB-Great Britain"	1996	"GB_1996"	"Environment"	.9483768	.384192	1
+"GB-Great Britain"	2006	"GB_2006"	"Health"	.9884872	.7970046	1
+"GB-Great Britain"	2006	"GB_2006"	"Pensions"	.9720655	.7046895	1
+"GB-Great Britain"	2006	"GB_2006"	"Unemployment"	.5482883	-.2737713	1
+"GB-Great Britain"	2006	"GB_2006"	"Environment"	.9140154	.5318348	1
+"US-United States"	1985	"US_1985"	"Health"	.8328859	.5277435	0
+"US-United States"	1985	"US_1985"	"Unemployment"	.5114223	.0094953	0
+"US-United States"	1985	"US_1985"	"Pensions"	.8826589	.2994299	0
+"US-United States"	1985	"US_1985"	"Environment"		.3164473	0
+"US-United States"	1990	"US_1990"	"Environment"		.5110132	0
+"US-United States"	1990	"US_1990"	"Pensions"	.8754355	.3878092	0
+"US-United States"	1990	"US_1990"	"Health"	.8913988	.6922407	0
+"US-United States"	1990	"US_1990"	"Unemployment"	.5288288	.0613333	0
+"US-United States"	1996	"US_1996"	"Unemployment"	.4770259	.0674603	1
+"US-United States"	1996	"US_1996"	"Environment"	.8871753	.3560666	1
+"US-United States"	1996	"US_1996"	"Health"	.8460919	.6092404	1
+"US-United States"	1996	"US_1996"	"Pensions"	.867355	.408406	1
+"US-United States"	2006	"US_2006"	"Health"	.907293	.7459948	1
+"US-United States"	2006	"US_2006"	"Environment"	.9331208	.4025304	1
+"US-United States"	2006	"US_2006"	"Pensions"	.9015604	.5790272	1
+"US-United States"	2006	"US_2006"	"Unemployment"	.5093181	.206168	1

@@ -1,0 +1,133 @@
+cty	issue	lic	exp	eff	man
+"AU-Australia"	"Health"	.9835882	.8990349	.0963406	.8842801
+"AU-Australia"	"Pensions"	.9493243	.5073557	.0925645	.4816451
+"AU-Australia"	"Unemployment"	.5726125	-.2734168	.3742954	-.1565618
+"AU-Australia"	"Environment"	.9509988	.5408709	-.095797	.5143676
+"CA-Canada"	"Health"	.9632055	.7288272	.2647308	.7020103
+"CA-Canada"	"Pensions"	.9536594	.4204268	.1121192	.400944
+"CA-Canada"	"Unemployment"	.6173779	.0365102	.1714893	.0225406
+"CA-Canada"	"Environment"	.9309606	.4528457	-.0898472	.4215815
+"CL-Chile"	"Health"	.9796998	.950523	-.0910971	.9312271
+"CL-Chile"	"Pensions"	.985633	.905251	-.2392031	.8922452
+"CL-Chile"	"Unemployment"	.9094209	.7594917	-.3513218	.6906977
+"CL-Chile"	"Environment"	.9556913	.2986557	-.1603564	.2854227
+"TW-Taiwan"	"Health"	.9541231	.4560431	.1992139	.4351213
+"TW-Taiwan"	"Pensions"	.9372809	.4781645	-.015896	.4481744
+"TW-Taiwan"	"Unemployment"	.7184799	.4547775	-.5202581	.3267485
+"TW-Taiwan"	"Environment"	.956923	.5899131	-.1078864	.5645014
+"HR-Croatia"	"Health"	.9822184	.8752123	-.3594306	.8596496
+"HR-Croatia"	"Pensions"	.9728122	.8968457	-.5415929	.8724625
+"HR-Croatia"	"Unemployment"	.8684444	.6266549	-.7295874	.544215
+"HR-Croatia"	"Environment"	.9581438	.6663717	-.1724806	.6384799
+"CZ-Czech Republic"	"Health"	.9604382	.6619392	.028198	.6357517
+"CZ-Czech Republic"	"Pensions"	.9418611	.5284881	-.0510806	.4977624
+"CZ-Czech Republic"	"Unemployment"	.4684986	-.1997651	-.3601635	-.0935897
+"CZ-Czech Republic"	"Environment"	.8995559	.4105568	.0027015	.3693188
+"DK-Denmark"	"Health"	.9910514	.7972973	.2195668	.7901626
+"DK-Denmark"	"Pensions"	.9745318	.4908676	.1609281	.4783661
+"DK-Denmark"	"Unemployment"	.8076336	.0015314	.5698925	.0012368
+"DK-Denmark"	"Environment"	.9565217	.5075988	.2103265	.4855292
+"DO-Dominican Republic"	"Health"	.975749	.9728959	-.0203193	.9493021
+"DO-Dominican Republic"	"Pensions"	.958989	.7139412	-.2276543	.6846617
+"DO-Dominican Republic"	"Unemployment"	.7426901		-.5098321	
+"DO-Dominican Republic"	"Environment"	.9350586	.5792564	-.016757	.5416386
+"FI-Finland"	"Health"	.9890168	.7873099	.2366054	.7786627
+"FI-Finland"	"Pensions"	.9671823	.6765604	.0041926	.6543573
+"FI-Finland"	"Unemployment"	.8528691	.1997558	-.1965881	.1703655
+"FI-Finland"	"Environment"	.8951914	.3846477	.2788646	.3443333
+"FR-France"	"Health"	.9202075	.5081052	.1804019	.4675622
+"FR-France"	"Pensions"	.9255814	.3896506	-.0618756	.3606533
+"FR-France"	"Unemployment"	.678067	-.2805034	-.3926349	-.1902001
+"FR-France"	"Environment"	.9619023	.4434192	-.2516105	.426526
+"DE-Germany"	"Health"	.9613948	.5977443	.1220746	.5746683
+"DE-Germany"	"Pensions"	.9433606	.4534591	.0614313	.4277755
+"DE-Germany"	"Unemployment"	.7095301	.1476766	-.7310819	.104781
+"DE-Germany"	"Environment"	.942405	.2691577	.2912932	.2536556
+"HU-Hungary"	"Health"	.9954425	.9316952	-.1592717	.9274489
+"HU-Hungary"	"Pensions"	.9895293	.7340063	-.2314829	.7263207
+"HU-Hungary"	"Unemployment"	.705008	.2152191	-.5724463	.1517312
+"HU-Hungary"	"Environment"	.9561645	.6314412	-.1046673	.6037617
+"IE-Ireland"	"Health"	.9958742	.9216731	-.4681279	.9178705
+"IE-Ireland"	"Pensions"	.996036	.9004668	-.0351796	.8968973
+"IE-Ireland"	"Unemployment"	.7959378	.3994513	.4668285	.3179384
+"IE-Ireland"	"Environment"	.9547639	.6558062	.0802486	.6261402
+"IL-Israel"	"Health"	.956621	.8882979	-.0421369	.8497643
+"IL-Israel"	"Pensions"	.9539623	.8033409	-.2341868	.7663569
+"IL-Israel"	"Unemployment"	.6415963	.1342487	-.3946768	.0861334
+"IL-Israel"	"Environment"	.8659004	.5402735	-.2551409	.4678231
+"JP-Japan"	"Health"	.8684908	.5532102	-.0905893	.4804579
+"JP-Japan"	"Pensions"	.8851175	.4964093	-.1821397	.4393806
+"JP-Japan"	"Unemployment"	.5645311	.0862403	-.4463636	.0486853
+"JP-Japan"	"Environment"	.8976449	.5124195	-.263978	.4599708
+"KR-South Korea"	"Health"	.9058899	.7918001	.0845707	.7172837
+"KR-South Korea"	"Pensions"	.9000636	.7308435	-.2341244	.6578057
+"KR-South Korea"	"Unemployment"	.7023733	.3879534	-.684379	.2724881
+"KR-South Korea"	"Environment"	.9330328	.6826923	-.2607303	.6369743
+"LV-Latvia"	"Health"	.957935	.8672986	-.4936585	.8308157
+"LV-Latvia"	"Pensions"	.9770115	.8566002	-.6972921	.8369082
+"LV-Latvia"	"Unemployment"	.6493644	.2617188	-.3555777	.1699508
+"LV-Latvia"	"Environment"	.913669	.531496	-.0633947	.4856115
+"NL-Netherlands"	"Health"	.9909181	.7003204	.0311126	.6939601
+"NL-Netherlands"	"Pensions"	.9595742	.3701895	-.0037429	.3552243
+"NL-Netherlands"	"Unemployment"	.6681687	-.2532812	-.0823226	-.1692346
+"NL-Netherlands"	"Environment"	.8602337	.2076099	.1056355	.178593
+"NZ-New Zealand"	"Health"	.9801817	.8274446	.039604	.811046
+"NZ-New Zealand"	"Pensions"	.9527363	.5078707	.1684828	.4838669
+"NZ-New Zealand"	"Unemployment"	.4918315	-.514547	.3538718	-.2530704
+"NZ-New Zealand"	"Environment"	.9241786	.2811966	.3645485	.2598759
+"NO-Norway"	"Health"	.991673	.847793	-.0159574	.8407334
+"NO-Norway"	"Pensions"	.9863326	.5719784	-.1234663	.564161
+"NO-Norway"	"Unemployment"	.8849421	-.024864	.3914729	-.0220032
+"NO-Norway"	"Environment"	.9234412	.340591	.1748196	.3145157
+"PH-Philippines"	"Health"	.9538331	.860409	.2402367	.8206866
+"PH-Philippines"	"Pensions"	.9101385	.8124379	.054334	.739431
+"PH-Philippines"	"Unemployment"	.7819575		-.2227621	
+"PH-Philippines"	"Environment"	.8864246	.5707566	.0692338	.5059326
+"PL-Poland"	"Health"	.9882207	.911582	-.4134614	.9008442
+"PL-Poland"	"Pensions"	.9882727	.9057012	-.521764	.8950797
+"PL-Poland"	"Unemployment"	.8238994	.39804	-.2393889	.3279449
+"PL-Poland"	"Environment"	.9776833	.5946236	.0584763	.5813535
+"PT-Portugal"	"Health"	.9866061	.9270151	-.4826826	.9145987
+"PT-Portugal"	"Pensions"	.9865332	.9048114	-.6011341	.8926265
+"PT-Portugal"	"Unemployment"	.9186179	.5279802	-.6323678	.4850121
+"PT-Portugal"	"Environment"	.9642506	.6419836	-.3147134	.619033
+"RU-Russia"	"Health"	.9860325	.8707105	-.4115248	.8585489
+"RU-Russia"	"Pensions"	.9886636	.8882608	-.6351798	.8781911
+"RU-Russia"	"Unemployment"	.6860269	.4738777	-.5038227	.3250929
+"RU-Russia"	"Environment"	.9616876	.6652129	-.4478773	.639727
+"SI-Slovenia"	"Health"	.9799398	.7896866	.1587629	.7738453
+"SI-Slovenia"	"Pensions"	.9638917	.5680655	.1112277	.5475537
+"SI-Slovenia"	"Unemployment"	.8282208	.1930541	-.3516029	.1598915
+"SI-Slovenia"	"Environment"	.9531568	.6423433	-.0010493	.6122539
+"ZA-South Africa"	"Health"	.9628157	.8878384	.1374339	.8548247
+"ZA-South Africa"	"Pensions"	.9500859	.7458987	.1238118	.7086679
+"ZA-South Africa"	"Unemployment"	.875851	.6203557	-.7140779	.5433392
+"ZA-South Africa"	"Environment"	.8901759	.2817942	.0237011	.2508464
+"ES-Spain"	"Health"	.9774739	.8623482	.3330595	.8429228
+"ES-Spain"	"Pensions"	.9947896	.8130115	.0440806	.8087754
+"ES-Spain"	"Unemployment"	.9275123	.5210549	.0473752	.4832848
+"ES-Spain"	"Environment"	.970297	.6705277	-.0437956	.650611
+"SE-Sweden"	"Health"	.9363557	.7835757	.1141631	.7337056
+"SE-Sweden"	"Pensions"	.9697493	.5772926	-.0650836	.5598291
+"SE-Sweden"	"Unemployment"	.8343613	.0217202	-.5	.0181225
+"SE-Sweden"	"Environment"	.8946428	.3511384	.2126697	.3141434
+"CH-Switzerland"	"Health"	.8835301	.4069768	.6396213	.3595763
+"CH-Switzerland"	"Pensions"	.8993735	.5218007	.5498053	.4692937
+"CH-Switzerland"	"Unemployment"	.6709687	.164666	.3537517	.1104857
+"CH-Switzerland"	"Environment"	.8968046	.5211281	.341139	.46735
+"GB-Great Britain"	"Health"	.9884872	.7970046	.2730956	.7878289
+"GB-Great Britain"	"Pensions"	.9720655	.7046895	-.0443856	.6850044
+"GB-Great Britain"	"Unemployment"	.5482883	-.2737713	-.0036082	-.1501056
+"GB-Great Britain"	"Environment"	.9140154	.5318348	-.1884435	.4861052
+"US-United States"	"Health"	.907293	.7459948	-.2062493	.6768358
+"US-United States"	"Pensions"	.9015604	.5790272	-.2071758	.522028
+"US-United States"	"Unemployment"	.5093181	.206168	-.0681532	.1050051
+"US-United States"	"Environment"	.9331208	.4025304	-.0226618	.3756095
+"UY-Uruguay"	"Health"	.9699509	.9037964	.0876125	.8766381
+"UY-Uruguay"	"Pensions"	.9813164	.8644102	-.0960182	.8482599
+"UY-Uruguay"	"Unemployment"	.8867525	.5757733	-.0127851	.5105684
+"UY-Uruguay"	"Environment"	.9435874	.4085633	.2777804	.3855152
+"VE-Venezuela"	"Health"	.995768	.8592939	.3422663	.8556574
+"VE-Venezuela"	"Pensions"	.9965754	.9035456	.3033381	.9004514
+"VE-Venezuela"	"Unemployment"	.8982213	.7447446	-.2435279	.6689455
+"VE-Venezuela"	"Environment"	.9824473	.4608515	.0505391	.4527623
