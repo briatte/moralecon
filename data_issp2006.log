@@ -1,0 +1,150 @@
+--------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/fr/Documents/Research/Data/ISSP/data_issp2006.log
+  log type:  text
+ opened on:  22 Feb 2012, 20:32:37
+
+. 
+. * Data.
+. use "issp2006/ZA4700_F1.dta", clear
+
+. 
+. // VARIABLES
+. 
+. * Structure:
+. ren V3a cty
+
+. ren WEIGHT wgt
+
+. 
+. * Variables:
+. * exp = expenditure (should spend, 5-point scale)
+. * lic = license (should do, 4-point scale)
+. ren V18 exp1 // health
+
+. ren V27 lic1
+
+. ren V35 eff1
+
+. ren V22 exp2 // pensions
+
+. ren V28 lic2
+
+. ren V36 eff2
+
+. ren V23 exp3 // unemployment
+
+. ren V30 lic3
+
+. ren V39 eff3
+
+. ren V17 exp4 // environment
+
+. ren V34 lic4
+
+. ren V40 eff4
+
+. 
+. * Recode: license
+. foreach v of varlist lic* {
+  2.         ren `v' x`v'
+  3.         qui recode x`v' (1/2=1) (3/4=0) (else=.), gen(`v') // rescaled [0,1
+> ]
+  4. }
+
+. 
+. * Recode: expenditure, efficiency 
+. foreach v of varlist exp* eff* {
+  2.         ren `v' x`v'
+  3.         qui recode x`v' (1/2=1) (3=0) (4/5=-1) (else=.), gen(`v') // rescal
+> ed [-1,0,1]
+  4. }
+
+. 
+. * Collapse.
+. gen year=2006
+
+. collapse lic* exp* eff* [pw=wgt], by(cty)
+
+. 
+. * Generate: mandate = license [0,1] * expenditure [-1,0,1]
+. forvalues i=1/4 {
+  2.         gen man`i'=lic`i'*exp`i'
+  3. }
+(2 missing values generated)
+
+. 
+. if $graphs {
+.         gr mat lic1 exp1 man1 eff1, maxes(ylab(-1 1) xlab(-1 1)) name(h, repla
+> ce)
+.         gr mat lic2 exp2 man2 eff2, maxes(ylab(-1 1) xlab(-1 1)) name(p, repla
+> ce)
+.         gr mat lic3 exp3 man3 eff3, maxes(ylab(-1 1) xlab(-1 1)) name(u, repla
+> ce)
+.         gr mat lic4 exp4 man4 eff4, maxes(ylab(-1 1) xlab(-1 1)) name(e, repla
+> ce)
+. }
+
+. 
+. * Correlates.
+. corr lic*
+(obs=33)
+
+             |     lic1     lic2     lic3     lic4
+-------------+------------------------------------
+        lic1 |   1.0000
+        lic2 |   0.8652   1.0000
+        lic3 |   0.3850   0.5451   1.0000
+        lic4 |   0.3317   0.4402   0.3528   1.0000
+
+
+. corr exp*
+(obs=31)
+
+             |     exp4     exp1     exp2     exp3
+-------------+------------------------------------
+        exp4 |   1.0000
+        exp1 |   0.1649   1.0000
+        exp2 |   0.4371   0.7192   1.0000
+        exp3 |   0.3319   0.3433   0.7445   1.0000
+
+
+. 
+. * Figures.
+. if $graphs {
+.         global opts = "legend(pos(3)) scale(.75) ylab(-1 1) xlab(-1 1)"
+.         // fig.1 (all)
+.         sc man1 eff1, ms(O) || sc man2 eff2, ms(O) || sc man3 eff3, ms(O) || s
+> c man4 eff4, ms(O) $opts ///
+>                 legend(col(1) lab(1 "Health") lab(2 "Pensions") lab(3 "Unemplo
+> yment") lab(4 "Environment"))
+. }
+
+. 
+. * reshape
+. reshape long lic exp eff man, i(cty) j(issue)
+(note: j = 1 2 3 4)
+
+Data                               wide   ->   long
+-----------------------------------------------------------------------------
+Number of obs.                       33   ->     132
+Number of variables                  17   ->       6
+j variable (4 values)                     ->   issue
+xij variables:
+                     lic1 lic2 ... lic4   ->   lic
+                     exp1 exp2 ... exp4   ->   exp
+                     eff1 eff2 ... eff4   ->   eff
+                     man1 man2 ... man4   ->   man
+-----------------------------------------------------------------------------
+
+. la de issue 1 "Health" 2 "Pensions" 3 "Unemployment" 4 "Environment"
+
+. la val issue issue
+
+. 
+. outsheet using data_issp2006.csv, replace
+
+. 
+end of do-file
+
+. exit, clear
