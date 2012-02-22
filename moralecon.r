@@ -13,9 +13,10 @@ cols <- c(cols[2], cols[1], cols[3:8]) # inverts red/blue order
 # lic = license to act ("government is responsible for...") scaled [0,1]
 # exp = license to spend ("government should spend more/less") scaled [-1,1]
 #
-issp8506 <- read.csv("issp8506.csv", header=TRUE, sep="\t")
-issp8506 <- subset(d,issue=="Health" | issue=="Unemployment")
-issp8506 <- droplevels(d)
+issp8506 <- read.csv("data_issp8506.csv", header=TRUE, sep="\t")
+issp8506 <- subset(issp8506,issue %in% c("Health","Unemployment"))
+issp8506 <- na.omit(issp8506)
+issp8506 <- droplevels(issp8506)
 
 # Fig. 1
 # License/Expenditure Policy Space for Health and Unemployment, 1985-2006
@@ -33,7 +34,7 @@ fig1 <- ggplot(data=issp8506,aes(lic, exp, colour=issue)) +
 # man = mandate = license*expenditure [-1,1]
 # eff = efficiency ("government successful at...") scaled [-1,1]
 #
-issp06 <- read.csv("issp2006.csv", header=TRUE, sep="\t")
+issp06 <- read.csv("data_issp2006.csv", header=TRUE, sep="\t")
 issp06 <- subset(issp06,issue %in% c("Health","Unemployment","Pensions"))
 issp06 <- na.omit(issp06)
 issp06 <- droplevels(issp06)
