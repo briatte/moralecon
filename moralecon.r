@@ -65,3 +65,14 @@ fig2b <- fig2 + geom_polygon(data=hulls, alpha=.2); fig2b
 
 ggsave(fig1,filename="moralecon.fig1.pdf")
 ggsave(fig2b,filename="moralecon.fig2b.pdf")
+
+# PCA
+Xoriginal=t(as.matrix(subset(issp06, issue=="Health", select=c(lic,exp,eff))))
+summary(pca <- prcomp(Xoriginal))
+plot(pca)
+sd <- pca$sdev; barplot(pca$sdev/pca$sdev[1])
+loadings <- pca$rotation
+rownames(loadings) <- 
+pca2=prcomp(Xoriginal, tol=.1)
+plot.ts(pca2$x)
+plot.ts(intensities)

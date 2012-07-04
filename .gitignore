@@ -1,22 +1,10 @@
 
-.Rproj.user/6B74E703/sdb/prop/INDEX
-
-.Rproj.user/6B74E703/pcs/files-pane.pper
-
-.Rproj.user/6B74E703/pcs/source-pane.pper
+.Rproj.user/*
 
 .Rhistory
 
-.Rproj.user/6B74E703/pcs/windowlayoutstate.pper
-
-.Rproj.user/6B74E703/pcs/workbench-pane.pper
-
 .RData
 
-.Rproj.user/6B74E703/sdb/per/t/436A0923
+.DS_Store
 
-.Rproj.user/6B74E703/sdb/prop/9A3A4E0
-
-.Rproj.user/6B74E703/sdb/s-EA60B7C7/436A0923
-
-.Rproj.user/6B74E703/sdb/s-EA60B7C7/lock_file
+.gitignore
