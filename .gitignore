@@ -2,10 +2,12 @@
 .DS_Store
 .gitignore
 
+*.pdf
+
 .Rproj.user/*
-moralecon.Rproj
+
+.Rproj
 .Rhistory
 .RData
 .Rproj.user
 
-*.pdf
