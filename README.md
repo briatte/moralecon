@@ -1,9 +1,10 @@
-# README: moralecon
+# README
 
-The code replicates a few graphs from my PhD dissertation (or at least that's where I hope to get them published first). The data, processed with Stata, come from the International Social Survey Programme (ISSP). Thanks to Andrew Wheeler and others at [StackExchange][1] for helping with the code.
+The code plots some public opinion data on the moral economy of welfare states. The data come from the International Social Survey Programme (ISSP) and were pre-processed to country-level aggregates with Stata.
 
-[François Briatte](f.briatte@ed.ac.uk)
+Thanks to Andrew Wheeler and others at [StackExchange][1] for helping with the R code.
 
-[Website](http://f.briatte.org/)
+> First release February 2012.  
+> Last revision February 2013 (minor edits to reflect changes in ggplot2 syntax).
 
 [1]: http://stats.stackexchange.com/questions/22805/how-to-draw-neat-polygons-around-scatterplot-regions-in-ggplot2/
